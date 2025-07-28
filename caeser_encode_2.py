@@ -6,6 +6,9 @@ alphabet = "".join([chr(i) for i in range(97, 123)])
 d = d % 26
 new_alphabet = alphabet[d:] + alphabet[:d]
 
+print(alphabet)
+print(new_alphabet)
+
 doc = dict()
 for i in range(26):
     doc[alphabet[i]] = new_alphabet[i]
